@@ -1,12 +1,12 @@
 # Forum App
 
-This is a simple forum application built using React and Axios for making HTTP requests. The application allows users to view existing forum posts and create new forum posts with titles and comments.
+This is a simple forum application that allows users to view existing forum posts and create new forum posts with titles and comments.
 
-## Prerequisites
+It uses Docker and is run using Docker compose.
 
-Before running this application, make sure you have the following software installed:
+The code for the front end, in React, is in the client folder.
 
-- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (Node Package Manager)
+The code for the back end, using Express and Postgres, is in the server folder.
 
 ## Installation
 
@@ -25,6 +25,6 @@ Before running this application, make sure you have the following software insta
 3. Run the Docker compose command.
 
    ```bash
-   docker-compose up
+   docker-compose up --build
    ```
 
