@@ -1,0 +1,47 @@
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  margin-bottom: 40px;
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  background: #f3f3f3;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
